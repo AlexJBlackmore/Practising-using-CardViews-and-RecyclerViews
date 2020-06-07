@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Practising using RecyclerViews</string>
+    <string name="page_title">Recycler view I gone and done</string>
+
+    <string-array name="sport_titles">
+        <item>Baseball</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Table tennis</item>
+        <item>Swimming</item>
+        <item>Running</item>
+    </string-array>
+
+    <string-array name="sport_infos">
+        <item>Swipe to delete me!</item>
+        <item>Swipe to delete me!</item>
+        <item>Swipe to delete me!</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</item>
+    </string-array>
+
+    <string-array name="sport_descs">
+        <item>Tap to see more or long-press to re-order me!</item>
+        <item>Tap to see more or long-press to re-order me!</item>
+        <item>Tap to see more or long-press to re-order me!</item>
+        <item>Fut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</item>
+        <item>Fut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</item>
+        <item>Fut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</item>
+    </string-array>
+
+    <array name="sport_banner_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_running</item>
+    </array>
+</resources>

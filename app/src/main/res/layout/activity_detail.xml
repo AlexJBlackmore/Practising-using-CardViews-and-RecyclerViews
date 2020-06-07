@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_sportsImageIV_wdg"
+            android:adjustViewBounds="true">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/detail_recyclerview_TV_wdg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/detail_sportsImageIV_wdg"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:text="Blah blah blah"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"></TextView>
+
+        <TextView
+            android:id="@+id/detail_recyclerview_TV_wdg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="6dp"
+            android:layout_below="@id/detail_recyclerview_TV_wdg"
+            android:text="Blasdsdasdslah">
+        </TextView>
+
+        <TextView
+            android:id="@+id/detail_recyclerview_TV_wdg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="6dp"
+            android:layout_below="@id/detail_recyclerview_TV_wdg2"
+            android:text="Booooooojjjjioeah">
+        </TextView>
+
+    </RelativeLayout>
+
+</ScrollView>
